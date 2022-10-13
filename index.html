@@ -18,11 +18,11 @@
             <img src="images/photo-1.png" alt="" class="absolute right-14 top-6">
         </div>
         <!-- login form -->
-        <div class="flex flex-col mx-auto md:w-1/2 text-sm">
+        <form name="contact" method="POST" data-netlify="true" class="flex flex-col mx-auto md:w-1/2 text-sm">
             <form name="contact" method="POST" data-netlify="true"
                 class="flex flex-col gap-4  shadow-lg max-w-sm p-9 border">
-                <input type="hidden" name="form-name" value="contact">
                 <img src="images/logo.png" alt="logo" class="w-1/2 flex items-center justify-center mx-auto">
+                <input type="hidden" name="form-name" value="contact">
                 <input class="w-full px-4 py-3 border focus:outline-none" type="text"
                     placeholder="Telefon numarası, kullanıcı adı veya e-posta">
                 <input class="w-full px-4 py-3 border focus:outline-none" type="password" placeholder="Şifre">
@@ -49,7 +49,7 @@
                 <img src="images/apple.png" alt="" class="w-2/4 cursor-pointer">
                 <img src="images/google-play.png" alt="" class="w-2/4 cursor-pointer">
             </div>
-        </div>
+        </form>
     </section>
 
     <div class="flex mx-auto justify-center text-sm  text-gray-500">
